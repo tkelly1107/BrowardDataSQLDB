@@ -6,7 +6,7 @@ output: html_notebook
 #The method used sourced from Social Security data
 
 
-```{r split first and last names}
+```{r grab names from column}
 library(readxl)
 textinprocess <- read_excel("C:/Users/recon/Desktop/browardlistings.xlsx")
 demo_names <- textinprocess$host_name
