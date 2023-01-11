@@ -11,8 +11,6 @@ library(readxl)
 textinprocess <- read_excel("C:/Users/recon/Desktop/browardlistings.xlsx")
 demo_names <- textinprocess$host_name
 library(stringr)
-try <- word(demo_names,start=1,end=1,sep=fixed(" "))
-firstnameslist <- data.frame(try, row.names = NULL, check.rows = FALSE, check.names = FALSE, fix.empty.names = FALSE, stringsAsFactors = FALSE)
 ```
 
 ```{r}
