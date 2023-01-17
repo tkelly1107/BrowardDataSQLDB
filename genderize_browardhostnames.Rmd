@@ -8,7 +8,7 @@ output: html_notebook
 
 ```{r grab names from column}
 library(readxl)
-textinprocess <- read_excel("C:/Users/recon/Desktop/browardlistings.xlsx")
+textinprocess <- read_excel("Path.xlsx")
 demo_names <- textinprocess$host_name
 library(stringr)
 ```
